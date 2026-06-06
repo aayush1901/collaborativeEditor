@@ -30,6 +30,6 @@ app.get('/health',(req,res)=>{
       success:true,
    })
 })
-httpServer.listen(3000,()=>{
+httpServer.listen(PORT,()=>{
    console.log(`server running on port ${PORT}`);
 })
